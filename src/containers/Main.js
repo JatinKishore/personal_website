@@ -5,10 +5,10 @@ import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
+import DevopsProject from "./DevopsProjects/DevopsProject";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
-import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
@@ -57,6 +57,7 @@ const Main = () => {
             <Education />
             <WorkExperience />
             <Projects />
+            <DevopsProject/>
             <StartupProject />
             <Achievement />
             <Blogs />
@@ -64,7 +65,6 @@ const Main = () => {
             <Twitter />
             <Podcast />
             <Profile />
-            <Footer />
             <ScrollToTopButton />
           </>
         )}

@@ -177,10 +177,24 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Founder",
+      link:"https://codeclub-officials.neocities.org/",
+      company: "codeClub Community",
+      companylogo: require("./assets/images/codeClub.png"),
+      date: "September 2023 – Present ",
+      desc: "Running a Non-Profit Community of 500+ students and helping them in their placements preparation and career development",
+      descBullets: [
+        "'Bid Your Price' a revolutionary project development project to connect clients with tight budgets and students with eager to work in real-time projects.",
+        "'FightClub' a free weekly coding contest with cash price to motivate students in coding",
+        "Weekly Guest Lectures, Daily Coding & Aptitude Questions, web development tasks are also conducted with the help of volunteers."
+      ]
+    },
+    {
       role: "Embedded Intern",
+      link:"https://zrae.global/",
       company: "ZRAE Globals",
       companylogo: require("./assets/images/ZRAE-global.jpeg"),
-      date: "October 2022 – December 2023 ",
+      date: "October 2022 – January 2023 ",
       desc: "Worked as a Horizontal Head of Embedded Systems team, Done research work on various projects to reduce the project cost without compromising in the quality.",
       descBullets: [
         "Achieved 66.67% cost reduction while developing a Prototype for an MSME project - 'TB DETECTOR MASK' ",
@@ -199,11 +213,68 @@ const openSource = {
   display: false // Set false to hide this section, defaults to true
 };
 
+// Some devops projects you have worked on
+
+const devopsProjects = {
+  title: "Domain Projects",
+  subtitle: "I have mentioned the projects with their names or techstacks I have used to in them to showcase my knowledge on those techstacks",
+  projects: [
+    {
+      image: require("./assets/images/devops.png"),
+      projectName: "DevOps",
+      projectDesc: "I am devOps enthusiatic and build various to show my interest in devOps",
+      footerLink: [
+        {
+          name: "Project Repo",
+          url: "https://github.com/JatinKishore/MSME_Project.git"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/aids.jpg"),
+      projectName: "AI and Data Science",
+      projectDesc: "I am devOps enthusiatic and build various to show my interest in devOps",
+      footerLink: [
+        {
+          name: "Project Repo",
+          url: "https://github.com/JatinKishore/MSME_Project.git"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/web.jpg"),
+      projectName: "Web Development",
+      projectDesc: "I am devOps enthusiatic and build various to show my interest in devOps",
+      footerLink: [
+        {
+          name: "Project Repo",
+          url: "https://github.com/JatinKishore/MSME_Project.git"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/embedded.png"),
+      projectName: "Embedded Systems",
+      projectDesc: "I am devOps enthusiatic and build various to show my interest in devOps",
+      footerLink: [
+        {
+          name: "Project Repo",
+          url: "https://github.com/JatinKishore/MSME_Project.git"
+        }
+        //  you can add extra buttons here.
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "AWARD WINNING PROJECTS",
+  title: "AWARD WINNING PROJECTS",
+  subtitle: "Projects that are recognized in stages",
   projects: [
     {
       image: require("./assets/images/MSME-Logo.png"),
@@ -240,7 +311,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications 📜 & Achievements🏆"),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -291,10 +362,27 @@ const achievementSection = {
         },
       ]
     },
+    {
+      title: "GOOGLE",
+      subtitle:
+        "I have completed 2 professional Certificates of Google",
+      image: require("./assets/images/google.png"),
+      imageAlt: "Google",
+      footerLink: [
+        {
+          name: "Data Analytics",
+          url: "https://coursera.org/verify/professional-cert/3NCXCE3AVKHA"
+        },
+        {
+          name: "Project Management",
+          url: "https://coursera.org/verify/professional-cert/KYDNPSYLWMUX"
+        }
+      ]
+    },
 
     {
       title: "PATENT WORK",
-      subtitle: "Happy to say I got my first patent at the age of 20 for my project on Responsive Frame",
+      subtitle: "Happy to say I got my first patent at the age of 21 for my project on Responsive Frame",
       image: require("./assets/images/patent.jpg"),
       imageAlt: "Patent",
       footerLink: [        
@@ -330,20 +418,26 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "LECTURES BY ME",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I LOVE TO CONTRIBUTE TO THE TECH SOCIETY BY TEACHING WHATEVER I HAVE LEARNT"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Docker & K8s ",
+      subtitle: "Container vs VM | MultiStage Docker | Docker vs K8s | KOPS",
+      slides_url: "https://docs.google.com/presentation/d/1fwCrjjpu4PfFYdmtDhjug4QtDaXhGHNERCPWhPosBaY/edit?usp=sharing",
+      event_url: ""
+    },
+    {
+      title: "Crack Coding Rounds",
+      subtitle: "Patterns | Arrays | Recursion | LinkedList",
+      slides_url: "https://docs.google.com/presentation/d/1VeLTTB15rrp8iKLGrZZwFrk9ABzK4ZSJB4qu8SHrl8Q/edit?usp=sharing",
+      event_url: ""
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -395,6 +489,7 @@ export {
   techStack,
   workExperiences,
   openSource,
+  devopsProjects,
   bigProjects,
   achievementSection,
   blogSection,
