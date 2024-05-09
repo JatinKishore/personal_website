@@ -184,9 +184,9 @@ const workExperiences = {
       date: "September 2023 – Present ",
       desc: "Running a Non-Profit Community of 500+ students and helping them in their placements preparation and career development",
       descBullets: [
-        "'Bid Your Price' a revolutionary project development project to connect clients with tight budgets and students with eager to work in real-time projects.",
+        "'Bid Your Price' a revolutionary project to connect clients with tight budgets and students with eager to experience real-time projects.",
         "'FightClub' a free weekly coding contest with cash price to motivate students in coding",
-        "Weekly Guest Lectures, Daily Coding & Aptitude Questions, web development tasks are also conducted with the help of volunteers."
+        "Other than this weekly Guest Lectures, Daily Coding & Aptitude Questions, web development tasks are also conducted with the help of volunteers."
       ]
     },
     {
@@ -268,7 +268,7 @@ const devopsProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 // Some big projects you have worked on
 
