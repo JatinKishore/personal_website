@@ -184,7 +184,7 @@ const workExperiences = {
       date: "September 2023 – Present ",
       desc: "Running a Non-Profit Community of 500+ students and helping them in their placements preparation and career development",
       descBullets: [
-        "'Bid Your Price' a revolutionary project to connect clients with tight budgets and students with eager to experience real-time projects.",
+        "'Bid Your Price' a revolutionary project to connect clients with tight budgets and students who are eager to experience real-time projects.",
         "'FightClub' a free weekly coding contest with cash price to motivate students in coding",
         "Other than this weekly Guest Lectures, Daily Coding & Aptitude Questions, web development tasks are also conducted with the help of volunteers."
       ]
