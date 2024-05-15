@@ -404,13 +404,20 @@ const blogSection = {
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
+    {
+      url: "https://www.linkedin.com/posts/jatinkishore-m_hand-written-notes-activity-7196213828999602176-L5oJ?utm_source=share&utm_medium=member_desktop",
+      title: "My Notes on DevOps",
+      description:
+        "This has my complete notes and review over the DevOps Zero to Hero Course by Abhishek Veeramalla"
+    },
     
     {
       url: "https://www.linkedin.com/posts/jatinkishore-m_docker-handwritten-notes-activity-7183514047047237633-f9c1?utm_source=share&utm_medium=member_desktop",
       title: "My Notes on Docker",
       description:
-        "This covers my Experience Zero to Hero Course of Abhishek Veeramalla"
+        "This covers my Experience Zero to Hero Docker Course of Abhishek Veeramalla"
     }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -427,13 +434,13 @@ const talkSection = {
     {
       title: "Docker & K8s ",
       subtitle: "Container vs VM | MultiStage Docker | Docker vs K8s | KOPS",
-      slides_url: "https://docs.google.com/presentation/d/1fwCrjjpu4PfFYdmtDhjug4QtDaXhGHNERCPWhPosBaY/edit?usp=sharing",
+      slides_url: "https://docs.google.com/presentation/d/1VeLTTB15rrp8iKLGrZZwFrk9ABzK4ZSJB4qu8SHrl8Q/edit?usp=sharing",
       event_url: ""
     },
     {
       title: "Crack Coding Rounds",
       subtitle: "Patterns | Arrays | Recursion | LinkedList",
-      slides_url: "https://docs.google.com/presentation/d/1VeLTTB15rrp8iKLGrZZwFrk9ABzK4ZSJB4qu8SHrl8Q/edit?usp=sharing",
+      slides_url: "https://docs.google.com/presentation/d/1fwCrjjpu4PfFYdmtDhjug4QtDaXhGHNERCPWhPosBaY/edit?usp=sharing",
       event_url: ""
     }
   ],
