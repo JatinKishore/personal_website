@@ -415,7 +415,7 @@ const blogSection = {
       url: "https://www.linkedin.com/posts/jatinkishore-m_docker-handwritten-notes-activity-7183514047047237633-f9c1?utm_source=share&utm_medium=member_desktop",
       title: "My Notes on Docker",
       description:
-        "This covers my Experience Zero to Hero Docker Course of Abhishek Veeramalla"
+        "This covers my Experience with Zero to Hero Docker Course of Abhishek Veeramalla"
     }
     
   ],
