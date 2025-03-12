@@ -90,22 +90,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "java",
       fontAwesomeClassname: "fab fa-java"
-    },       
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },    
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
     }
   ],
   display: true // Set false to hide this section, defaults to true
